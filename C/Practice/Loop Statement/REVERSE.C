@@ -4,11 +4,10 @@
 void main(){
 	clrscr();
 	int i,n;
-	printf("\nEnter any Number: ");
+	printf("\nEnter Starting Value: ");
 	scanf("%d",&n);
 
-	printf("\nNatural Numbers from 1 to %d:\n",n);
-	for(i=1;i<=n;i++)
+	for(i=n;i>=1;i--)
 	{
 		printf("%d\n",i);
 	}
